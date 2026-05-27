@@ -1,0 +1,978 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+/* navebars */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+}
+
+
+.navbar .logo {
+    height: 60px;
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.navbar button {
+    width: 70px;
+
+}
+
+.navbar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navbar .login {
+    width: 88px;
+    height: 30px;
+    color: grey;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 5px;
+}
+
+.navbar .login:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.navbar .sign_in {
+    width: 88px;
+    height: 30px;
+    background-color: rgb(71, 71, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .sign_in:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.navbar .nav_link {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.navbar .search-box input {
+    border: none;
+    width: 350px;
+    box-shadow: 0px 1px 2px 1px rgb(194, 194, 194);
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.navbar .search-box input:focus {
+    width: 360px;
+
+}
+
+.container {
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .container_text {
+    height: 270px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.container .container_photo_sec {
+    height: 270px;
+    width: 60%;
+    border-radius: 20px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44p26d78j/ChatGPT%20Image%20May%2012,%202026,%2010_17_22%20AM.png");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
+.container_photo_sec .container_photo_text {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.container_photo_sec img {
+    border-radius: 15px;
+}
+
+.container_text .text_2 {
+    background-image: linear-gradient(to right, blue, rgb(233, 92, 179), blue);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.container_text p {
+    color: rgb(97, 96, 96);
+}
+
+.container_text .explore {
+    height: 35px;
+    width: 150px;
+    background-color: rgb(71, 71, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.container_text .explore:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.container .works {
+    height: 35px;
+    width: 150px;
+    border: none;
+    color: black;
+    box-shadow: 0px 2px 2px rgb(105, 105, 105);
+    border-radius: 5px;
+}
+
+.container .works:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.icons_container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.icons_container .container_icon {
+    height: 100px;
+    width: 95%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 3px 9px 3px rgb(202, 202, 202);
+    border-radius: 20px;
+}
+
+.container_icon .ICON1 {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.ICON1:hover {
+    color: rgb(0, 0, 8);
+}
+
+.all_art_icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.all_art_icon rect:hover {
+    stroke: rgb(98, 0, 209);
+}
+
+.ICON {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+.ICON i {
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    font-size: 30px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.ICON:hover {
+    color: black;
+}
+
+.ICON i:hover {
+    color: rgb(98, 0, 209);
+    font-size: 32px;
+}
+
+
+.space {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Featured_art_container_text {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.Featured_art_container_text a {
+    text-decoration: none;
+    align-items: center;
+    color: rgb(70, 70, 70);
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.Featured_art_container_text u {
+    color: rgb(180, 1, 180);
+}
+
+.Pictures {
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.picture {
+    height: 260px;
+    width: 230px;
+    padding: 2px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.picture:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.picture b {
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.picture p {
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+    padding-left: 2px;
+}
+
+.picture .pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.Popular_artist {
+    font-size: 20px;
+    padding-left: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Popular_artist a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.Popular_artist u {
+    color: rgb(180, 1, 180);
+}
+
+.Popular_artists .Artists_photos {
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.Artists_photos h6 {
+    padding: 5px;
+    color: grey;
+}
+
+.artist_1_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.artist_1_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+
+}
+
+.artist1 {
+    text-align: center;
+    height: 250px;
+}
+
+
+
+.Artists_photos button {
+    height: 34px;
+    width: 90px;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 10px;
+    color: rgb(148, 33, 255);
+    border: 1px solid rgb(177, 177, 177);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Artists_photos button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+.artist2 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist2 .artist_2_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_2_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.Artists_photos p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.artist3 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist3 .artist_3_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_3_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist_3_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist4 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist4 .artist_4_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_4_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist_4_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist5 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist5 .artist_5_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_5_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist_5_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist6 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist6 .artist_6_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_6_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist_6_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+
+.artist7 {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.artist7 .artist_7_photo {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.artist_7_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.artist_7_photo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.offer_ {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer {
+    height: 70px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(228, 225, 225);
+}
+
+.offer .box-icon {
+    height: 50px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 1px 2px 2px rgb(196, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-icon img {
+    height: 55%;
+    width: 55%;
+}
+
+.offer .offer_text {
+    height: 50px;
+    width: 350px;
+
+}
+
+.offer_text h2 {
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(32, 32, 32);
+}
+
+.offer_text h6 {
+    padding-left: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(121, 121, 121);
+}
+
+.offer .offer_icons {
+    height: 50px;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.offer .offer_button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(119, 46, 255);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.offer_button:active {
+    transform: scale(0.95);
+    transition-duration: 0.1s;
+    color: rgb(48, 48, 48);
+    background-color: rgb(252, 252, 252);
+
+}
+
+.offer_icons .first_offer_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 120px;
+}
+
+.first_offer_icons h3 {
+    color: rgb(98, 0, 209);
+}
+
+.first_offer_icons .text {
+    padding-left: 10px;
+}
+
+.offer_icons i {
+    font-size: 30px;
+    color: rgb(98, 0, 209);
+}
+
+.art_inspiration {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.art_inspiration .art_inspiration_text {
+    margin-top: 40px;
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.art_inspiration_text a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.art_inspiration_text p {
+    font-size: 22px;
+    padding-left: 35px;
+
+}
+
+.art_inspiration_text u {
+    color: rgb(180, 4, 180);
+
+}
+
+.art_inspiration_photos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.art_inspiration_photos .first_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/fantasy-art-nature-fantasy-world-wallpaper.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+.first_art_inspiration_text {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 6px;
+    border-radius: 0 0 15px 15px;
+}
+
+.first_art_inspiration_text h5 {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+.art_inspiration_photos .first_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/ai-generated-portrait-of-a-young-woman-photo.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.first_art_inspiration:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.art_inspiration_photos .second_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/fantasy-art-nature-fantasy-world-wallpaper.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+.second_art_inspiration_text {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 6px;
+    border-radius: 0 0 15px 15px;
+}
+
+.second_art_inspiration_text h5 {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+.second_art_inspiration:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.art_inspiration_photos .third_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdng55q/images.jpg");
+    border-radius: 15px;
+    position: relative;
+    background-size: cover;
+}
+
+.third_art_inspiration_text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.third_art_inspiration_text h5 {
+    color: rgb(182, 182, 182);
+    font-size: 12px;
+}
+
+.third_art_inspiration:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.art_inspiration_photos .fourth_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdng55q/hq720.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    position: relative;
+}
+
+.fourth_art_inspiration_text {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 6px;
+    border-radius: 0 0 15px 15px;
+}
+
+.fourth_art_inspiration_text h5 {
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+}
+
+.fourth_art_inspiration:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.art_inspiration_photos .fifth_art_inspiration {
+    height: 190px;
+    width: 240px;
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdng55q/28f0ff98.jpg");
+    border-radius: 15px;
+    background-size: cover;
+    position: relative;
+}
+
+.fifth_art_inspiration_text {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 6px;
+    border-radius: 0 0 15px 15px;
+}
+
+.fifth_art_inspiration_text h5 {
+    color: rgb(172, 172, 172);
+    font-size: 12px;
+}
+
+.fifth_art_inspiration:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.Subscribe_container {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subscribe {
+    height: 70px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.subscribe .subscribe_text {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: start;
+    width: 700px;
+    padding-left: 10px;
+}
+
+.subscribe h5 {
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+}
+
+.subscribe_input {
+    height: 40px;
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgb(170, 170, 170);
+}
+
+.Subscribe-button {
+    height: 40px;
+    width: 160px;
+    background-color: rgb(119, 46, 255);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.Subscribe-button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+}
+
+.mail_icon {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 3px 3px grey;
+    border-radius: 10px;
+
+}
+
+.mail_icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.footer_container {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.First_footer {
+    height: 180px;
+    width: 300px;
+    text-align: center;
+}
+
+.First_footer .footer_logo {
+    height: 80px;
+    width: 100%;
+}
+
+.footer_logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.First_footer p {
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+}
+
+.icons_media {
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.icons_media i {
+    font-size: 25px;
+}
+
+.icons_media a {
+    text-decoration: none;
+    background-color: rgb(201, 201, 201);
+    border-radius: 50%;
+    color: rgb(10, 10, 10);
+}
+
+.text1 p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+.text2 p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+.text3 p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+.text4 p {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+}
+
+.rights {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(114, 114, 114);
+    height: 14px;
+}
+
+@media (width:600px) {}
