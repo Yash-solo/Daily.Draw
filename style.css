@@ -1089,8 +1089,126 @@
         margin-left: 10px;
     }
 
-    .offer {
+    .box-icon img {
+        height: 35px;
+        width: 40px;
+    }
+
+    .offer_text h2 {
+        font-size: 14px;
+    }
+
+    .offer_icons {
+        width: 200px;
+    }
+
+    .first_offer_icons {
+        font-size: 12px;
+    }
+
+    .first_offer_icons i {
+        font-size: 19px;
+    }
+
+    .offer_text h6 {
+        font-size: 6px;
+
+    }
+
+    .offer_button {
+        width: 200px;
+    }
+
+    .art_inspiration {
+        padding: 0 10px;
+    }
+
+
+
+
+
+    .art_inspiration_photos {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+    }
+
+    .first_art_inspiration,
+    .second_art_inspiration,
+    .third_art_inspiration,
+    .fourth_art_inspiration,
+    .fifth_art_inspiration {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Subscribe_container {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .subscribe p {
+        font-size: 14px;
+    }
+
+    .subscribe h5 {
+        font-size: 8px;
+    }
+
+    .subscribe {
+        height: 80px;
+
+        margin-left: 0px;
+    }
+
+    .mail_icon {
+        height: 0px;
+        width: 0px;
+    }
+
+    .Subscribe-button {
+        width: 70px;
+    }
+
+    hr {
         width: 460px;
-        height: 50px;
+    }
+
+    footer {
+        width: 460px;
+    }
+
+    .footer_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+
+    .First_footer {
+        height: 150px;
+        width: 150px;
+    }
+
+    .text1 {
+        font-size: 15px;
+        width: 50px;
+    }
+
+    .text2 {
+        font-size: 15px;
+        width: 50px;
+    }
+
+    .text3 {
+        font-size: 15px;
+        width: 50px;
+    }
+
+    .text4 {
+        font-size: 15px;
+        width: 50px;
     }
 }
