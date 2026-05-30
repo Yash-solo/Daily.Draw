@@ -14,27 +14,54 @@
 
 <body>
     <header>
-        <div class="navbar">
+        <nav class="navbar">
             <div class="logo">
-                <img src="764db482-426a-40d5-ba06-e8fe201ce768.png">
+                <img src="https://uploads.onecompiler.io/44fgyygtm/44qt2jqe6/764db482-426a-40d5-ba06-e8fe201ce768.png"
+                    alt="Logo">
             </div>
-
 
             <div class="search-box">
-                <input type="text" placeholder="Search artist,art,styles.....">
+                <input type="text" placeholder="Search artist, art, styles…">
             </div>
-            <div class="nav_link">
-                <a href="#">Explore</a>
-                <a href="#">Categories</a>
-                <a href="#">Artist</a>
-                <a href="#">How_it_works</a>
-                <a href="#">blog</a>
-                <a class="shoping" href="#"><img
-                        src="moon icon.png" height="20px"></a>
-                <a class="night_mode" href="#"><img
-                        src="shoping icon.png" height="20px"></a>
-                <button class="login" href="#">Login</button>
-                <button class="sign_in" href="#">Sign up</button>
+
+            <ul class="nav-links">
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <div class="nav-icons">
+                    <a href="#"><img src="shoping icon.png" height="20"></a>
+                    <a href="#"><img src="moon icon.png" height="20"></a>
+                </div>
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign up</button>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="burger" id="burger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-search">
+                <input type="text" placeholder="Search artist, art, styles…">
+            </div>
+            <a href="#">Explore</a>
+            <a href="#">Categories</a>
+            <a href="#">Artists</a>
+            <a href="#">How it works</a>
+            <a href="#">Blog</a>
+            <div class="mobile-btns">
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign up</button>
             </div>
         </div>
     </header>
