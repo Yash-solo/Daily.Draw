@@ -26,7 +26,7 @@
     height: 270px;
     width: 60%;
     border-radius: 20px;
-    background-image: url("front-face_image.png");
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44p26d78j/ChatGPT%20Image%20May%2012,%202026,%2010_17_22%20AM.png");
     background-size: cover;
     display: flex;
     align-items: end;
@@ -55,7 +55,7 @@
 
 .container_text .explore {
     height: 35px;
-    width: 150px;
+    width: 140px;
     background-color: rgb(71, 71, 255);
     color: white;
     border: none;
@@ -70,7 +70,7 @@
 
 .container .works {
     height: 35px;
-    width: 150px;
+    width: 140px;
     border: none;
     color: black;
     box-shadow: 0px 2px 2px rgb(105, 105, 105);
@@ -584,7 +584,7 @@
 .art_inspiration_photos .first_art_inspiration {
     height: 190px;
     width: 240px;
-    background-image: url("ai-generated-portrait-of-a-young-woman-photo.jpg");
+    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/fantasy-art-nature-fantasy-world-wallpaper.jpg");
     background-size: cover;
     border-radius: 15px;
     position: relative;
@@ -889,24 +889,28 @@
 
 @media only screen and (max-width:768px) {
     main {
-        width: 460px;
+        width: 100%;
     }
 
     header {
-        width: 460px;
+        width: 100%;
     }
 
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         height: 600px;
-        width: 460px;
+        width: 100%;
     }
 
     .container .container_text {
         width: 90%;
-        height: 300px;
+        height: 45%;
     }
+
 
     .container_text .container_button {
         display: flex;
@@ -918,13 +922,17 @@
     .container .container_photo_sec {
         height: 250px;
         width: 90%;
-        margin-left: 9px;
+
 
     }
 
     .icons_container {
         height: 320px;
-        width: 420px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .icons_container .container_icon {
@@ -932,16 +940,16 @@
         grid-template-columns: repeat(3, 1fr);
         height: 320px;
         width: 90%;
-        margin-left: 15px;
+
     }
 
     .Featured_art_container {
-        width: 460px;
+        width: 100%;
     }
 
     .Featured_art_container_text {
         height: 22px;
-        width: 450px;
+        width: 100%;
     }
 
     .Featured_art_container .Pictures {
@@ -1051,39 +1059,52 @@
 
     .Subscribe_container {
         display: flex;
-        justify-content: start;
+        width: 100%;
+
+        justify-content: center;
         align-items: center;
     }
 
     .subscribe p {
         font-size: 14px;
+
     }
 
     .subscribe h5 {
-        font-size: 8px;
+        font-size: 7px;
+        margin-top: 5px;
+    }
+
+    .subscribe .subscribe_text {
+        width: 100%;
+        height: 70px;
     }
 
     .subscribe {
         height: 80px;
-
+        width: 100%;
         margin-left: 0px;
+        border: none;
+        box-shadow: inset 0px 3px 3px rgb(170, 170, 170);
     }
 
     .mail_icon {
-        height: 0px;
-        width: 0px;
+        height: 50%;
+        width: 50%;
+        border-radius: 15px;
     }
 
     .Subscribe-button {
-        width: 70px;
+        width: 100%;
     }
 
     hr {
-        width: 460px;
+        width: 100%;
+        border: 1px solid rgb(211, 211, 211);
     }
 
     footer {
-        width: 460px;
+        width: 100%;
     }
 
     .footer_container {
@@ -1126,7 +1147,7 @@
     background: #fff;
     height: 60px;
     padding: 0 16px;
-    width: 430px;
+
     border-bottom: 1px solid #eee;
     position: relative;
 }
@@ -1158,6 +1179,10 @@
 
 .nav-links {
     display: flex;
+    height: 30px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
     gap: 20px;
 }
@@ -1312,4 +1337,51 @@
     .logo {
         width: 100px;
     }
+}
+
+@media (max-width:929px) {
+    .container_text .explore {
+        height: 30px;
+        width: 120px;
+
+    }
+
+    .container_text .works {
+        height: 30px;
+        width: 120px;
+    }
+}
+
+@media (max-width:900px) {
+    .container_text .explore {
+        height: 25px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .container_text .works {
+        height: 25px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .container_icon i {
+        font-size: 25px;
+    }
+
+    .container_icon {
+        font-size: 12px;
+    }
+
+    .nav-icons img {
+        height: 0px;
+        width: 0px;
+
+    }
+
+    .search-box input {
+        width: 265px;
+    }
+
+
 }
