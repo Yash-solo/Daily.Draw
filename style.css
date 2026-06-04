@@ -581,14 +581,7 @@
     margin-top: 10px;
 }
 
-.art_inspiration_photos .first_art_inspiration {
-    height: 190px;
-    width: 240px;
-    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/fantasy-art-nature-fantasy-world-wallpaper.jpg");
-    background-size: cover;
-    border-radius: 15px;
-    position: relative;
-}
+
 
 .first_art_inspiration_text {
     background-color: rgba(0, 0, 0, 0.5);
@@ -609,7 +602,7 @@
 .art_inspiration_photos .first_art_inspiration {
     height: 190px;
     width: 240px;
-    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/ai-generated-portrait-of-a-young-woman-photo.jpg");
+    background-image: url("");
     background-size: cover;
     border-radius: 15px;
 }
