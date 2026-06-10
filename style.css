@@ -665,7 +665,7 @@
 .art_inspiration_photos .first_art_inspiration {
     height: 190px;
     width: 240px;
-    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/ai-generated-portrait-of-a-young-woman-photo.jpg");
+    background-image: url("ai-generated-portrait-of-a-young-woman-photo.jpg");
     background-size: cover;
     border-radius: 15px;
 }
@@ -678,7 +678,7 @@
 .art_inspiration_photos .second_art_inspiration {
     height: 190px;
     width: 240px;
-    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdmk3h9/fantasy-art-nature-fantasy-world-wallpaper.jpg");
+    background-image: url("fantasy-art-nature-fantasy-world-wallpaper.jpg");
     background-size: cover;
     border-radius: 15px;
     position: relative;
@@ -708,7 +708,7 @@
 .art_inspiration_photos .third_art_inspiration {
     height: 190px;
     width: 240px;
-    background-image: url("https://uploads.onecompiler.io/44fgyygtm/44pdng55q/images.jpg");
+    background-image: url("images.jpg");
     border-radius: 15px;
     position: relative;
     background-size: cover;
