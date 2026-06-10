@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="764db482-426a-40d5-ba06-e8fe201ce768.png"
+                <img src="https://uploads.onecompiler.io/44fgyygtm/44qt2jqe6/764db482-426a-40d5-ba06-e8fe201ce768.png"
                     alt="Logo">
             </div>
 
@@ -37,8 +37,8 @@
                     <a href="#"><img src="shoping icon.png" height="20"></a>
                     <a href="#"><img src="moon icon.png" height="20"></a>
                 </div>
-                <button class="btn-login">Login</button>
-                <button class="btn-signup">Sign up</button>
+                <button onclick="login_website()" class="btn-login">Login</button>
+                <button class="btn-signup" onclick="signin_website()">Sign up</button>
             </div>
 
             <!-- Hamburger -->
@@ -60,11 +60,12 @@
             <a href="#">How it works</a>
             <a href="#">Blog</a>
             <div class="mobile-btns">
-                <button class="btn-login">Login</button>
+                <button class="btn-login" onclick="login_website()">Login</button>
                 <button class="btn-signup">Sign up</button>
             </div>
         </div>
     </header>
+
     <main>
         <div class="container">
             <div class="container_text">
@@ -82,11 +83,20 @@
                 </div>
             </div>
             <div class="container_photo_sec">
-                <div class="container_photo_text">
-                    <p>featured artworks</p>
-                    <h4>Painting series_ By xyzARTIST</h4>
-                    <p style="font-size:10px">Price: $2000</p>
+                <div class="slides">
+                    <img src="Untitled - June 09, 2026 at 13.35.10-2.png" alt="img1" class="slide">
+                    <img src="C:\Users\Lenovo\Desktop\Artist's marketplace\Untitled - June 09, 2026 at 13.35.10-2.png"
+                        alt="img2" class="slide">
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/Screenshot%202026-05-14%20055907.png"
+                        alt="img3" class="slide">
+
                 </div>
+                <button id="prevbtn" onclick="current_slide(-1)">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="nextbtn" onclick="current_slide(1)">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
             </div>
 
         </div>
@@ -164,7 +174,7 @@
             </div>
             <div class="Pictures">
                 <div class="picture"><img
-                        src="66972720172384b704aacc1f_6664ce04b8f9cc5df2fbac0b_kZqYLTFz_-3Hv_1024.webp"
+                        src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/66972720172384b704aacc1f_6664ce04b8f9cc5df2fbac0b_kZqYLTFz_-3Hv_1024.webp"
                         height="210px" width="225px" style="border-radius: 10px;"><b>Whispers</b><br>
                     <div class="pic">
                         <p>by Neha singh</p>
@@ -172,7 +182,7 @@
                     </div>
                 </div>
                 <div class="picture"><img
-                        src="Screenshot 2026-05-14 055634.png"
+                        src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/Screenshot%202026-05-14%20055634.png"
                         height="210px" width="225px" style="border-radius: 10px;"><b>Colors of Emotions</b><br>
                     <div class="pic">
                         <p>by Rohan Varma</p>
@@ -180,7 +190,7 @@
                     </div>
                 </div>
                 <div class="picture"><img
-                        src="Screenshot 2026-05-14 055907.png"
+                        src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/Screenshot%202026-05-14%20055907.png"
                         height="210px" width="225px" style="border-radius: 10px;"><b>Monsoon Streets</b><br>
                     <div class="pic">
                         <p>by Priya Das</p>
@@ -188,7 +198,7 @@
                     </div>
                 </div>
                 <div class="picture"><img
-                        src="Screenshot 2026-05-14 060050.png"
+                        src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/Screenshot%202026-05-14%20060050.png"
                         height="210px" width="225px" style="border-radius: 10px;"><b>Dream Escape</b><br>
                     <div class="pic">
                         <p>by Aman Khan</p>
@@ -196,7 +206,7 @@
                     </div>
                 </div>
                 <div class="picture"><img
-                        src="Screenshot 2026-05-13 145538.png"
+                        src="https://uploads.onecompiler.io/44fgyygtm/44p7kazj7/Screenshot%202026-05-13%20145538.png"
                         height="210px" width="225px" style="border-radius: 10px;"><b>Inner Balance</b>
                     <div class="pic">
                         <p>by Kavya Layr</p>
@@ -214,7 +224,7 @@
 
                 <div class="artist1">
 
-                    <img src="PDSO8766[1].JPG"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/PDSO8766%5B1%5D.JPG"
                         class="artist_1_photo">
                     <p>Yashraj.draw</p>
                     <h6>Glow Artist</h6>
@@ -222,42 +232,42 @@
 
                 </div>
                 <div class="artist2">
-                    <img src="Screenshot 2026-05-14 070656.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20070656.png"
                         class="artist_2_photo">
                     <p>Tamcandraw</p>
                     <h6>water_color_artist</h6>
                     <button><b>Follow</b></button>
                 </div>
                 <div class="artist3">
-                    <img src="Screenshot 2026-05-14 065716.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20065716.png"
                         class=artist_3_photo>
                     <p>Spirit_glow</p>
                     <h6>Glow Artist</h6>
                     <button><b>Follow</b></button>
                 </div>
                 <div class="artist4">
-                    <img src="Screenshot 2026-05-14 065803.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20065803.png"
                         class="artist_4_photo">
                     <p>banash2012</p>
                     <h6>Fashion Designer</h6>
                     <button><b>Follow</b></button>
                 </div>
                 <div class="artist5">
-                    <img src="Screenshot 2026-05-14 065947.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20065947.png"
                         class="artist_5_photo">
                     <p>lohra.siddharth</p>
                     <h6>Sketch Artist</h6>
                     <button><b>Follow</b></button>
                 </div>
                 <div class="artist6">
-                    <img src="Screenshot 2026-05-14 065528.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20065528.png"
                         class="artist_6_photo">
                     <p>arttekii</p>
                     <h6>Painting Artist</h6>
                     <button><b>Follow</b></button>
                 </div>
                 <div class="artist7">
-                    <img src="Screenshot 2026-05-14 065607.png"
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44p7s3sbq/Screenshot%202026-05-14%20065607.png"
                         class="artist_7_photo">
                     <p>official_art1312</p>
                     <h6>Sketch Artist</h6>
@@ -268,7 +278,7 @@
         <div class="offer_">
             <div class="offer">
                 <div class="box-icon">
-                    <img src="gift.jpg">
+                    <img src="https://uploads.onecompiler.io/44fgyygtm/44pbhcfwr/gift.jpg">
 
                 </div>
                 <div class="offer_text">
@@ -358,7 +368,7 @@
     <footer>
         <div class="footer_container">
             <div class="First_footer">
-                <div class="footer_logo"><img src="764db482-426a-40d5-ba06-e8fe201ce768.png"></div>
+                <div class="footer_logo"><img src="https://uploads.onecompiler.io/44fgyygtm/44pakds2w/logo.png"></div>
                 <p>Where art meets passion.</p>
                 <div class="icons_media">
                     <a href="#"><i class="fa fa-facebook"></i></a>
