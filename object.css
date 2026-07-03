@@ -42,3 +42,24 @@
     border:9px solid white;
     box-shadow:0px 0px 30px rgb(0, 0, 0);
 }
+@media(max-width:729px){
+    .painting_prod{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .painting_prod div{
+        width:98%;
+        position:relative;
+    }
+    .painting_prod img{
+        width:100%;
+    }
+    .painting_prod button{
+        transform:scale(0.8);
+    }
+    .painting_prod button:hover{
+        transform:scale(0.9);
+    }
+}
