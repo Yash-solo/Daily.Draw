@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.painting_prod{
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    background:linear-gradient(to right,#020024,#090979,#00D4FF);
+}
+.painting_prod div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    gap:10px;
+    padding:20px;
+    margin:10px;
+
+}
+.painting_prod p{
+    font-size:30px;
+}
+.painting_prod div button{
+    height:50px;
+    width:200px;
+    position: relative;
+    font-size:23px;
+}
+.painting_prod div button:hover{
+    background-color:blue;
+    color:white;
+    transform:scale(1.1);
+    transition-duration:0.2s;
+    transition-timing-function:ease-in-out;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.painting_prod div img{
+    border:9px solid white;
+    box-shadow:0px 0px 30px rgb(0, 0, 0);
+}
