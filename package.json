@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "name": "daily.draw",
+  "version": "1.0.0",
+  "description": "I am creating a online marketplace where every artists can upload and sell their artworks. From this art selling marketplace artist can generate a small or big amount of money by selling their artworks to interested candidates.This is just a page of how will my website be look like . I create this using html and css code I had been learn.",
+  "main": "daily.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-solo/Daily.Draw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yash-solo/Daily.Draw/issues"
+  },
+  "homepage": "https://github.com/Yash-solo/Daily.Draw#readme"
+}
