@@ -199,27 +199,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-.Featured_art_container_text {
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 40px;
-}
-
-.Featured_art_container_text a {
-    text-decoration: none;
-    align-items: center;
-    color: rgb(70, 70, 70);
-    padding-right: 30px;
-    cursor: pointer;
-    font-size: 17px;
-}
-
-.Featured_art_container_text u {
-    color: rgb(180, 1, 180);
-}
-
 .Pictures {
     height: 310px;
     background-color: rgb(255, 255, 255);
@@ -260,35 +239,6 @@
     padding-top: 2px;
 }
 
-.Popular_artist {
-    font-size: 20px;
-    padding-left: 40px;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Popular_artist a {
-    text-decoration: none;
-    padding-right: 30px;
-    color: rgb(63, 63, 63);
-    cursor: pointer;
-    font-size: 17px;
-}
-
-.Popular_artist u {
-    color: rgb(180, 1, 180);
-}
-
-.Popular_artists .Artists_photos {
-    height: 280px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-
-}
 
 .Artists_photos h6 {
     padding: 5px;
@@ -592,11 +542,6 @@
     font-size: 30px;
     color: rgb(98, 0, 209);
 
-}
-
-.art_inspiration {
-    height: 300px;
-    background-color: rgb(255, 255, 255);
 }
 
 .art_inspiration .art_inspiration_text {
@@ -999,66 +944,6 @@
 
     }
 
-    .Featured_art_container {
-        width: 100%;
-    }
-
-    .Featured_art_container_text {
-        height: 22px;
-        width: 100%;
-    }
-
-    .Featured_art_container .Pictures {
-        height: 300px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .Popular_artists {
-        width: 460px;
-
-    }
-
-    .artist1 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist1 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist2 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist3 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist4 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist5 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist6 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    .artist7 {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
 
 
 
@@ -1104,28 +989,6 @@
 
     }
 
-
-
-    .art_inspiration {
-        padding: 0 10px;
-    }
-
-    .art_inspiration_photos {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        gap: 10px;
-    }
-
-    .first_art_inspiration,
-    .second_art_inspiration,
-    .third_art_inspiration,
-    .fourth_art_inspiration,
-    .fifth_art_inspiration {
-        width: 100%;
-        height: 180px;
-        background-size: cover;
-        background-position: center;
-    }
 
     .Subscribe_container {
         display: flex;
