@@ -15,58 +15,15 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="764db482-426a-40d5-ba06-e8fe201ce768.png"
-                    alt="Logo">
-            </div>
-
-            <div class="search-box">
-                <input type="text" placeholder="Search artist, art, styles…">
-            </div>
-
-            <ul class="nav-links">
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-
-            <div class="nav-right">
-                <div class="nav-icons">
-                    <a href="#"><img src="shoping icon.png" height="20"></a>
-                    <a href="#"><img src="moon icon.png" height="20"></a>
-                </div>
-                <button onclick="login_website()" class="btn-login">Login</button>
-                <button class="btn-signup" onclick="signin_website()">Sign up</button>
-            </div>
-
-            <!-- Hamburger -->
-            <div class="burger" id="burger" onclick="toggleMenu()">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-
-        <!-- Mobile Menu -->
-        <div class="mobile-menu" id="mobileMenu">
-            <div class="mobile-search">
-                <input type="text" placeholder="Search artist, art, styles…">
-            </div>
-            <a href="#">Explore</a>
-            <a href="#">Categories</a>
-            <a href="#">Artists</a>
-            <a href="#">How it works</a>
-            <a href="#">Blog</a>
-            <div class="mobile-btns">
-                <button class="btn-login" onclick="login_website()">Login</button>
-                <button class="btn-signup">Sign up</button>
-            </div>
-        </div>
-    </header>
+    <nav class="w-full flex items-center justify-around">
+        <h1 class="m-auto ">Daily.Draw</h1>
+        <ul class="w-1/2 flex items-center justify-around">
+            <li>Categories</li>
+            <li>Explore</li>
+            <li>Blog</li>
+            <li>settings</li>
+        </ul>
+    </nav>
 
     <main>
         <div class="container">
