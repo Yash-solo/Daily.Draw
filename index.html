@@ -15,18 +15,32 @@
 </head>
 
 <body>
-    <nav class="w-full flex items-center justify-around">
-        <h1 class="m-auto ">Daily.Draw</h1>
-        <ul class="w-1/2 flex items-center justify-around">
+    <header class="relative flex flex-col gap-2 w-full items-center justify-around">
+        <nav style="padding:8px" class="w-full rounded-2xl border border-[#ddd] shadow-[0px_0px_10px_rgba(0,0,0,0.3)] flex items-center justify-around">
+        <h1 class="m-auto font-bold font-mono text-2xl ">Daily.<span class="text-pink-600">Draw</span></h1>
+        <div class="menuBox md:hidden flex cursor-pointer flex-col items-center justify-around gap-1">
+            <span class="w-5 h-0.5 bg-gray-900"></span>
+            <span class="w-5 h-0.5 bg-gray-900"></span>
+            <span class="w-5 h-0.5 bg-gray-900"></span>
+        </div>
+        <ul class="md:flex hidden w-1/2 items-center justify-around">
             <li>Categories</li>
             <li>Explore</li>
             <li>Blog</li>
             <li>settings</li>
         </ul>
     </nav>
+    <ul class="sidebar transform transition-all duration-200 ease-in-out md:hidden fixed top-18 -left-200 p-3 flex flex-col items-start justify-around z-500 gap-2 w-full bg-white border shadow-[0px_0px_10px_rgba(0,0,0,0.5)] border-[#ddd] rounded-2xl">
+        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Categories</li>
+        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Explore</li>
+        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >Blog</li>
+        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >settings</li>
+    </ul>
+    </header>
+     
 
     <main>
-        <div class="container">
+        <div class="container w-full">
             <div class="container_text">
                 <br>
                 <h1>Buy original Art</h1>

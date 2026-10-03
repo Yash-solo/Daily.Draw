@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.p-3{
+    padding:12px;
+}
+.p-1{
+    padding:4px;
+}
+.p-2{
+    padding:8px;
+}
