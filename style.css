@@ -32,36 +32,7 @@ header{
     box-shadow: 2px 2px 2px grey;
     border: none;
     height: 15%;
-    width: 6%;
-}
-
-.container_photo_sec button:active {
-    transform: scale(0.8);
-    transition-duration: 0.2s;
-}
-
-#nextbtn {
-    right: 20px;
-}
-
-#prevbtn {
-    left: 20px;
-}
-
-.slide {
-    position: absolute;
-    height: 260px;
-    opacity: 0;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-
-
-.slide.active {
-    opacity: 1;
-}
-
+    width: 
 .container_photo_sec .container_photo_text {
     padding: 20px;
     font-size: 20px;
