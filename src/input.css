@@ -3,12 +3,22 @@
 .p-3{
     padding:12px;
 }
+
 .p-1{
     padding:4px;
 }
+
 .p-2{
     padding:8px;
 }
+
 .mb-0{
     margin-bottom: 0;
+}
+
+.bg-redical{
+    background:radial-gradient(rgb(245, 59, 90),#002BFF);
+}
+.px-5{
+    padding:5px 20px 5px 20px;
 }
