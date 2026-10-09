@@ -15,50 +15,116 @@
 </head>
 
 <body>
-    <header class="relative flex flex-col gap-2 w-full items-center justify-around">
-        <nav style="padding:8px" class="w-full rounded-2xl border border-[#ddd] shadow-[0px_0px_10px_rgba(0,0,0,0.3)] flex items-center justify-around">
-        <h1 class="m-auto font-bold font-mono text-2xl ">Daily.<span class="text-pink-600">Draw</span></h1>
-        <div class="menuBox md:hidden flex cursor-pointer flex-col items-center justify-around gap-1">
-            <span class="w-5 h-0.5 bg-gray-900"></span>
-            <span class="w-5 h-0.5 bg-gray-900"></span>
-            <span class="w-5 h-0.5 bg-gray-900"></span>
-        </div>
-        <div class="w-1/2 p-2 flex rounded-2xl items-center justify-around gap-1 bg-[#ddd]">
-            <span style="color: #3c3c3c;">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    aria-label="Search"
-                    >
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </span>
-            <input type="text" class="w-full focus:outline-0" placeholder="Search artworks,artist and more....">
-        </div>
-        <ul class="md:flex hidden gap-4 items-center justify-around">
-            <li class="px-5 bg-pink-600 rounded-3xl text-white">Login</li>
-            <li class="px-5 bg-blue-700 rounded-3xl text-white">Sign in</li>
+    <header class="w-full h-screen  p-3">
+       <nav style="padding:2px" class="w-full flex items-center justify-between">
+            <h1 class="m-auto font-bold font-mono text-2xl ">Daily.<span class="text-pink-600">Draw</span></h1>
+            <div class="menuBox md:hidden flex cursor-pointer flex-col items-center justify-around gap-1">
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+            </div>
+            <div class="w-1/2 p-2 md:flex hidden rounded-2xl items-center justify-around gap-1 bg-[#ddd]">
+                <span style="color: #3c3c3c;">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-label="Search"
+                        >
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input type="text" class="w-full focus:outline-0" placeholder="Search artworks,artist and more....">
+            </div>
+            <ul class="md:flex hidden gap-4 items-center justify-around">
+                <li class="px-5 bg-pink-600 rounded-3xl text-white">Login</li>
+                <li class="px-5 bg-blue-700 rounded-3xl text-white">Sign in</li>
+            </ul>
+        </nav> 
+        <ul class="sidebar transform transition-all duration-200 ease-in-out md:hidden fixed top-14 -left-200 p-3 flex flex-col items-start justify-around z-500 gap-2 w-full bg-white border shadow-[0px_0px_10px_rgba(0,0,0,0.5)] border-[#ddd] rounded-2xl">
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Categories</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Explore</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >Blog</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >settings</li>
         </ul>
-    </nav>
-    <ul class="sidebar transform transition-all duration-200 ease-in-out md:hidden fixed top-18 -left-200 p-3 flex flex-col items-start justify-around z-500 gap-2 w-full bg-white border shadow-[0px_0px_10px_rgba(0,0,0,0.5)] border-[#ddd] rounded-2xl">
-        <input type="text" class="w-full rounded-2xl p-2" placeholder="Search anything">
-        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Categories</li>
-        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Explore</li>
-        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >Blog</li>
-        <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >settings</li>
-    </ul>
-    <div>
-        <div></div>
-        <div></div>
-    </div>
+        <div class="w-full flex">
+            <div class=" flex rounded-2xl items-center justify-around gap-1 bg-[#ddd]">
+                <span style="color: #3c3c3c;">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="15"
+                        height="15"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-label="Search"
+                        >
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input type="text" class="text-sm w-full focus:outline-0" placeholder="Search artworks,artist and more....">
+            </div>
+            <div class="flex gap-2">
+                <button>Login</button>
+                <button>Sign in</button>
+            </div>
+        </div>
+    </header>
+    <header class="">
+        <nav style="padding:8px" class="w-full rounded-2xl border border-[#ddd] shadow-[0px_0px_10px_rgba(0,0,0,0.3)] flex items-center justify-around">
+            <h1 class="m-auto font-bold font-mono text-2xl ">Daily.<span class="text-pink-600">Draw</span></h1>
+            <div class="menuBox md:hidden flex cursor-pointer flex-col items-center justify-around gap-1">
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+                <span class="w-5 h-0.5 bg-gray-900"></span>
+            </div>
+            <div class="w-1/2 p-2 flex rounded-2xl items-center justify-around gap-1 bg-[#ddd]">
+                <span style="color: #3c3c3c;">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-label="Search"
+                        >
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input type="text" class="w-full focus:outline-0" placeholder="Search artworks,artist and more....">
+            </div>
+            <ul class="md:flex hidden gap-4 items-center justify-around">
+                <li class="px-5 bg-pink-600 rounded-3xl text-white">Login</li>
+                <li class="px-5 bg-blue-700 rounded-3xl text-white">Sign in</li>
+            </ul>
+        </nav>
+        <ul class="sidebar transform transition-all duration-200 ease-in-out md:hidden fixed top-18 -left-200 p-3 flex flex-col items-start justify-around z-500 gap-2 w-full bg-white border shadow-[0px_0px_10px_rgba(0,0,0,0.5)] border-[#ddd] rounded-2xl">
+            <input type="text" class="w-full rounded-2xl p-2" placeholder="Search anything">
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Categories</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full">Explore</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >Blog</li>
+            <li class="p-2 bg-[#f5f4f4] rounded-sm w-full" >settings</li>
+        </ul>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
     </header>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab consequuntur assumenda voluptas excepturi, quia quibusdam, sapiente numquam eius atque autem nisi odio est cumque, distinctio aliquam eos ea magni.
     Provident aut nihil doloremque tempora. Aliquam harum ratione, consequuntur laudantium alias, pariatur doloremque nemo beatae quae assumenda reiciendis? In, nisi? Accusantium sit itaque voluptatum officia cumque laboriosam corporis quae aperiam.
